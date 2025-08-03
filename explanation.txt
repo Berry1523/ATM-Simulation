@@ -1,0 +1,10 @@
+ATM Class:
+
+Constructor: Initializes the balance to zero.
+deposit(): Increases the balance if the deposit amount is positive; otherwise, it displays an error message.
+withdraw(): Decreases the balance if the withdrawal amount is valid; otherwise, it displays an error message.
+checkBalance(): Outputs the current balance to the console.
+ATMController Class:
+
+start(): Displays a menu for the user to choose an action. It uses a loop to keep the menu active until the user decides to exit. Based on the user's choice, it calls the appropriate method from the ATM class.
+Main Function: Creates an instance of ATMController and invokes the start() method to begin the ATM simulation.
